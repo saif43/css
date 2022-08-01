@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+
+.container {
+    margin: 40px auto 0 auto;
+    width: 1140px;
 }
 
 h1, h2 {
@@ -9,16 +20,48 @@ h1, h2 {
 
 h1 {
     font-size: 40px;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .main-text {
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .author-text {
     font-size: 22px;
 }
 
+.blog-post {
+    float: left;
+    width: 75%;
+    padding-right: 25px;
+}
+
+.blog-post > img {
+    width: 300px;
+}
+
+.other-posts {
+    float: left;
+    width: 25%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.author-content {
+    padding-top: 20px;
+    border-top: 1px solid rgba(172, 159, 159, 0.5);
+}
+
+.author-content > img {
+    width: 150px;
+}
