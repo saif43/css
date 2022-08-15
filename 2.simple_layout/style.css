@@ -40,6 +40,7 @@ h2 {
     float: left;
     width: 75%;
     padding-right: 25px;
+    position: relative;
 }
 
 .blog-post > img {
@@ -76,4 +77,10 @@ h2 {
 .author-text {
     margin-top: 2em;
     margin-left: 6em;
+}
+
+.date {
+    position: absolute;
+    top: 19px;
+    right: 25px;
 }
